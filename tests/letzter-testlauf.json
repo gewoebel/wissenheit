@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-26",
+  "unit_and_rules_model": {
+    "passed": 28,
+    "failed": 0,
+    "official_firebase_emulator": false
+  },
+  "browser_mock": {
+    "status": "passed",
+    "scenarios": [
+      "3-player lobby",
+      "duration 90s",
+      "stable input identity/focus/selection",
+      "automatic answer upload",
+      "correct answer replacement",
+      "other players wait",
+      "anonymous choices",
+      "self vote disabled",
+      "1+2 point tally",
+      "10s reveal",
+      "host rotation",
+      "empty next-round inputs",
+      "confirmed end"
+    ],
+    "javascript_errors": []
+  },
+  "not_tested": [
+    "Live-Firebase",
+    "official Firebase rules compiler/emulator",
+    "physical iPhone keyboard",
+    "physical Android device",
+    "production network loss",
+    "service-worker update on physical iPhone"
+  ]
+}

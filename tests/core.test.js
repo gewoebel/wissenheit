@@ -1,0 +1,15 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {clean,normalize,nextPlayer,latestAnswers,buildChoices,tally,shuffle} from '../core.js';import {QUESTIONS} from '../questions.js';
+const ids=()=>{let n=0;return ()=>`o${++n}`;};
+test('481 vollständige eindeutige Fragen',()=>{assert.equal(QUESTIONS.length,481);assert.equal(new Set(QUESTIONS.map(q=>q.id)).size,481);for(const q of QUESTIONS)assert.ok(q.question&&q.answer&&q.answer.length<=300);});
+test('Bereinigung, Länge, Normalisierung',()=>{assert.equal(clean('  Hallo\n Welt  '),'Hallo Welt');assert.equal(clean('x'.repeat(400)).length,300);assert.equal(normalize('LÖSUNG.'),'lösung');});
+test('Mischen verändert Original nicht',()=>{const a=[1,2,3];assert.deepEqual(shuffle(a,()=>0),[2,3,1]);assert.deepEqual(a,[1,2,3]);});
+test('Rollenrotation überspringt entfernte Personen',()=>{assert.equal(nextPlayer(['a','b','c'],'a',['a','c']),'c');assert.equal(nextPlayer(['a','b'],'b',['a','b']),'a');});
+test('Fehlende Einsendungen erzeugen keinen Absturz',()=>{assert.deepEqual(latestAnswers(undefined,0,{0:{a:true,b:true}}),{a:'',b:''});});
+test('Fehlender Ersatz verwirft alte richtige Antwort',()=>{assert.equal(latestAnswers({0:{a:{text:'Richtig'}}},1,{0:{a:true},1:{a:true}}).a,'');});
+test('Ersatz überschreibt alte Antwort',()=>{assert.equal(latestAnswers({0:{a:{text:'Alt'}},1:{a:{text:'Neu'}}},1,{1:{a:true}}).a,'Neu');});
+test('Doppelte Texte gemeinsam, öffentliche Optionen anonym',()=>{const c=buildChoices({answers:{a:'Falsch',b:'falsch.',c:'Andere'},moderation:{correctText:'Richtig'},excluded:{},uidFactory:ids()});assert.equal(c.order.length,3);assert.deepEqual(c.own.a,c.own.b);for(const o of Object.values(c.options))assert.deepEqual(Object.keys(o),['text']);});
+test('Manuelle Gruppen verwenden Ankertext',()=>{const c=buildChoices({answers:{a:'A',b:'B'},moderation:{correctText:'Lösung',groups:{a:'a',b:'a'},edits:{a:'Gemeinsam'}},excluded:{},uidFactory:ids()});assert.deepEqual(c.own.a,c.own.b);assert.ok(Object.values(c.mapping).some(o=>o.text==='Gemeinsam'));});
+test('Richtige Eingabe blockiert Freigabe',()=>assert.throws(()=>buildChoices({answers:{a:'Lösung!'},moderation:{correctText:'Lösung'},excluded:{},uidFactory:ids()}),/entspricht/));
+test('Leere und ausgeschlossene Bluffs fehlen',()=>{const c=buildChoices({answers:{a:'',b:'B',c:'C'},moderation:{correctText:'Lösung',excluded:{b:true}},excluded:{c:true},uidFactory:ids()});assert.equal(c.order.length,1);});
+test('Richtiger Tipp 1 und je Urheber 2 pro fremder Stimme',()=>{const r=tally({mapping:{c:{correct:true},f:{correct:false,authors:{a:true,b:true}}},ballots:{a:{optionId:'c'},b:{optionId:'c'},d:{optionId:'f'},h:{optionId:'c'}},eligible:['a','b','d','h'],excluded:{h:true},scores:{a:4,b:2,h:7}});assert.deepEqual(r.delta,{a:3,b:3,d:0,h:0});assert.equal(r.totals.a,7);assert.equal(r.totals.h,7);});
+test('Selbstwahl, unbekannte Option und fremde UID zählen nicht',()=>{const r=tally({mapping:{f:{correct:false,authors:{a:true}}},ballots:{a:{optionId:'f'},b:{optionId:'x'},z:{optionId:'f'}},eligible:['a','b'],excluded:{},scores:{}});assert.deepEqual(r.delta,{a:0,b:0});});
