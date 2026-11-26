@@ -2403,5 +2403,605 @@ export const QUESTIONS = [
     "id": "q500",
     "question": "Wie viele Kanten hat ein Möbiusband als Begrenzung seiner Fläche?",
     "answer": "Eine zusammenhängende Randkurve."
-  }
+  },
+  {
+  "id": "q501",
+  "question": "Welche ungewöhnliche Wärmequelle wurde für die britische Nuklearmine „Blue Peacock“ vorgeschlagen?",
+  "answer": "Lebende Hühner im Gehäuse sollten mit ihrer Körperwärme die Elektronik vor zu starker Abkühlung schützen. Es blieb ein Vorschlag."
+},
+{
+  "id": "q502",
+  "question": "Wie sollte eine Katze im CIA-Projekt „Acoustikitty“ zur Spionin werden?",
+  "answer": "Ein implantiertes Mikrofon und ein kleiner Sender sollten Gespräche aufzeichnen. Die Katze ließ sich jedoch nicht zuverlässig zum gewünschten Ort lenken; das Projekt wurde eingestellt."
+},
+{
+  "id": "q503",
+  "question": "Wie sollten die Tiere in B. F. Skinners Projekt „Pigeon“ eine Waffe auf ihr Ziel lenken?",
+  "answer": "Tauben sollten in der Spitze einer Lenkwaffe auf das sichtbare Zielbild picken. Ihre Pickbewegungen sollten die Flugsteuerung beeinflussen. Das System wurde nicht im Kampf eingesetzt."
+},
+{
+  "id": "q504",
+  "question": "Was erklingt tatsächlich, wenn man die „Great Stalacpipe Organ“ in den Luray Caverns spielt?",
+  "answer": "Elektrisch betätigte Gummihämmer schlagen auf abgestimmte Tropfsteine. Die Töne stammen von den Stalaktiten selbst, nicht von Orgelpfeifen."
+},
+{
+  "id": "q505",
+  "question": "Welche angebliche Entdeckung auf dem Mond beschrieb die New Yorker Zeitung „The Sun“ 1835 in einer erfundenen Artikelserie?",
+  "answer": "Unter anderem geflügelte, menschenähnliche Mondbewohner. Die Berichte gehörten zum sogenannten Great Moon Hoax und beschrieben keine echte Entdeckung."
+},
+{
+  "id": "q506",
+  "question": "Welchem Zweck diente die Verbindung zwischen einer Hand im Sarg und einer Glocke in manchen historischen Sicherheitssärgen?",
+  "answer": "Ein irrtümlich lebendig Begrabener sollte durch Ziehen an der Schnur eine Glocke über der Erde läuten und dadurch Hilfe rufen können."
+},
+{
+  "id": "q507",
+  "question": "Welche überraschende Entdeckung machten Forschende bei CT-Untersuchungen des historischen Dodo-Kopfes im Oxford-Museum?",
+  "answer": "Sie fanden Bleischrot im Kopf- und Halsbereich. Die Untersuchung deutete darauf hin, dass der Vogel von hinten beschossen worden war."
+},
+{
+  "id": "q508",
+  "question": "Welche zusätzliche Aufgabe übernahm Frank Clarkes als „A Clock Which Makes Tea“ vermarkteter Wecker?",
+  "answer": "Er bereitete zur eingestellten Zeit automatisch Tee zu. Eine Spiritusflamme erhitzte Wasser, das über einen Kippmechanismus aus dem Kessel ausgegossen wurde."
+},
+{
+  "id": "q509",
+  "question": "Wie wurde der Personenwagen der experimentellen Crystal-Palace-Bahn bewegt, ohne dass eine Lokomotive ihn zog?",
+  "answer": "Der Wagen wirkte in einem Tunnel wie ein großer Kolben. Luftdruck beziehungsweise angesaugte Luft bewegten ihn durch die Röhre."
+},
+{
+  "id": "q510",
+  "question": "Aus welchem ungewöhnlichen Material stellte ein Archäologieteam Messer her, um eine überlieferte Überlebensgeschichte experimentell zu prüfen?",
+  "answer": "Aus gefrorenen menschlichen Exkrementen. Die Messer konnten im Versuch die verwendete Schweinehaut nicht durchtrennen; die behauptete Schneidwirkung wurde damit nicht bestätigt."
+},
+{
+  "id": "q511",
+  "question": "Warum untersuchte ein Forschungsteam, wie Nashörner darauf reagieren, kopfüber an ihren Beinen aufgehängt zu werden?",
+  "answer": "Es wollte prüfen, ob betäubte Nashörner für Umsiedlungen sicher unter einem Hubschrauber transportiert werden können, wenn sie an den Beinen hängen."
+},
+{
+  "id": "q512",
+  "question": "Woraus gewann ein mexikanisches Forschungsteam das Ausgangsmaterial für die Herstellung dünner Diamantschichten?",
+  "answer": "Aus Tequila. Das Getränk diente in einem chemischen Gasphasenverfahren als Ausgangsstoff für mikroskopische Diamantschichten, nicht für große Schmuckdiamanten."
+},
+{
+  "id": "q513",
+  "question": "Was spielte ein japanisches Forschungsteam Mäusen vor, um den Einfluss von Geräuschen auf transplantierte Herzen zu untersuchen?",
+  "answer": "Unter anderem Verdis Oper „La traviata“. In dieser Versuchsgruppe hielten die transplantierten Herzen länger als in der unbehandelten Vergleichsgruppe; daraus folgt keine belegte Therapie für Menschen."
+},
+{
+  "id": "q514",
+  "question": "Was machten Ingenieure der Rice University mit toten Wolfsspinnen, nachdem sie eine feine Nadel in deren Körper eingeführt hatten?",
+  "answer": "Sie benutzten die Spinnen als kleine Greifwerkzeuge. Über die Nadel zugeführte Luft öffnete die Beine; beim Nachlassen des Drucks schlossen sie sich um Gegenstände."
+},
+{
+  "id": "q515",
+  "question": "Welches ungewöhnliche Erkennungsmerkmal nutzte ein Stanford-Prototyp einer Gesundheitstoilette zusätzlich zum Fingerabdruck?",
+  "answer": "Die individuellen Hautfalten am After, den sogenannten Analabdruck. Eine Kamera sollte damit Messdaten der jeweils richtigen Person zuordnen."
+},
+{
+  "id": "q516",
+  "question": "Welche ungewöhnliche Mischung trennten Forschende in einer Chromatografie-Studie mit lebenden Würmern?",
+  "answer": "Eine Mischung unterschiedlich aktiver Würmer, darunter durch Alkohol beeinträchtigte und nüchterne Tiere. Die Trennung nutzte Unterschiede ihrer Bewegung."
+},
+{
+  "id": "q517",
+  "question": "Welchen Zweck hatte ein historischer Milchversuch, bei dem eine Katze auf einer Kuh stand und daneben eine Papiertüte zum Knallen gebracht wurde?",
+  "answer": "Der Schreck sollte helfen zu untersuchen, wie Angst und Erregung die Milchabgabe der Kuh beeinflussen."
+},
+{
+  "id": "q518",
+  "question": "Was malte ein japanisches Forschungsteam auf Kühe, um sie vor stechenden Fliegen zu schützen?",
+  "answer": "Schwarz-weiße Streifen nach dem Vorbild von Zebras. Die so bemalten Kühe wurden in der Untersuchung seltener von stechenden Fliegen angegriffen."
+},
+{
+  "id": "q519",
+  "question": "Welche alltägliche Fingerbewegung ließ eine japanische Forschungsgruppe systematisch untersuchen, um die Bedienung von Geräten zu verbessern?",
+  "answer": "Das Drehen zylindrischer Knöpfe. Untersucht wurde, wie Menschen ihre Finger dafür einsetzen und wie viele Finger sie beim Beginn der Drehung verwenden."
+},
+{
+  "id": "q520",
+  "question": "Welche besondere Art von Testfigur entwickelte der schwedische Ingenieur Magnus Gens für Untersuchungen zur Verkehrssicherheit?",
+  "answer": "Einen Elch-Crashtest-Dummy, mit dem Zusammenstöße von Fahrzeugen mit einem Elch nachgestellt werden konnten."
+},
+{
+  "id": "q521",
+  "question": "Welchen Gegenstand vergruben Freiwillige für eine Untersuchung der Bodenaktivität, um ihn später wieder auszugraben?",
+  "answer": "Baumwollunterhosen. An ihrem Abbau sollte die Aktivität der Bodenorganismen beurteilt werden."
+},
+{
+  "id": "q522",
+  "question": "Aus welchem tierischen Körperteil entwickelte ein Forschungsteam besonders feine Düsen für einen 3D-Drucker?",
+  "answer": "Aus den Stechrüsseln toter Moskitos. Die hohlen Rüssel wurden als Druckdüsen für sehr feine Strukturen eingesetzt."
+},
+{
+  "id": "q523",
+  "question": "Welche vermeintlich banale Alltagshandlung untersuchten Tokuji Unno und Hiroshi Yajima mit aerodynamischen Methoden?",
+  "answer": "Das Naseputzen: Sie untersuchten das Ausblasen der Nase aus strömungsmechanischer Sicht."
+},
+{
+  "id": "q524",
+  "question": "Wie löste ein brasilianisches Forschungsteam Abwehrreaktionen giftiger Schlangen aus, um mögliche Ursachen von Bissen zu untersuchen?",
+  "answer": "Es trat mit geschütztem Fuß vorsichtig auf verschiedene Körperbereiche der Schlangen und verglich deren Reaktionen unter unterschiedlichen Bedingungen."
+},
+{
+  "id": "q525",
+  "question": "Welches ungewöhnliche Körperprodukt der Schabe Diploptera punctata wurde wegen seiner Nährstoffstruktur untersucht?",
+  "answer": "Proteinreiche, milchähnliche Nahrung für ihre sich entwickelnden Jungen, die im Körper der Nachkommen Proteinkristalle bildet."
+},
+{
+  "id": "q526",
+  "question": "Was beobachtete der Arzt William B. Bean über Jahrzehnte an sich selbst und hielt die Veränderungen regelmäßig fest?",
+  "answer": "Das Wachstum eines seiner Fingernägel. Er dokumentierte dessen Wachstum über 35 Jahre."
+},
+{
+  "id": "q527",
+  "question": "Mit welchem ungewöhnlichen Speiseangebot beschäftigte sich eine Untersuchung des Fressverhaltens von Regenbogenagamen in einem Ferienort in Togo?",
+  "answer": "Mit Pizza: Untersucht wurde, welche angebotenen Pizzasorten die Echsen als Nahrung nutzten."
+},
+{
+  "id": "q528",
+  "question": "Welche Zutat bekamen stillende Mütter in einem Versuch, um Veränderungen ihrer Milch und des Trinkverhaltens der Babys zu untersuchen?",
+  "answer": "Knoblauch. Die Untersuchung verfolgte, wie er die sensorischen Eigenschaften der Muttermilch und das Verhalten der Säuglinge beeinflusste."
+},
+{
+  "id": "q529",
+  "question": "Welchen ungewöhnlichen Zusatz untersuchte ein Forschungsteam, um Essen voluminöser zu machen, ohne dessen Kaloriengehalt entsprechend zu erhöhen?",
+  "answer": "Polytetrafluorethylen, bekannt als Teflon. Untersucht wurde der Kunststoff als unverdaulicher Volumenzusatz; das ist keine Empfehlung, ihn zu essen."
+},
+{
+  "id": "q530",
+  "question": "Warum bekamen Flughunde in einer Studie Alkohol, bevor ihre Flugleistung beobachtet wurde?",
+  "answer": "Um zu untersuchen, wie aufgenommener Alkohol ihren Flug und ihre Echoortung beeinträchtigt."
+},
+{
+  "id": "q531",
+  "question": "Welche Küchenpanne untersuchten Physiker anhand der italienischen Sauce Cacio e Pepe?",
+  "answer": "Das Verklumpen der Käse-Pfeffer-Sauce. Sie untersuchten ihre Phasenübergänge und die Bedingungen für die Klumpenbildung."
+},
+{
+  "id": "q532",
+  "question": "Mit welchem ungewöhnlichen Alltagsproblem beschäftigte sich die Designstudie „Smelly Shoes“?",
+  "answer": "Mit dem Geruch stinkender Schuhe und der Frage, wie Schuhregale so gestaltet werden können, dass ihre Nutzung angenehmer wird."
+},
+{
+  "id": "q533",
+  "question": "Was verglich eine Studie zwischen Menschen auf der Nord- und Südhalbkugel, das normalerweise beim Frisieren auffällt?",
+  "answer": "Die Drehrichtung der Haarwirbel auf ihren Köpfen. Es ging um mögliche Zusammenhänge mit Vererbung und geografischer Hemisphäre."
+},
+{
+  "id": "q534",
+  "question": "Welchen ungewöhnlichen Zusatz erhielten einige Scheinbehandlungen in einer Studie über die Wirkung von Placebos?",
+  "answer": "Schmerzhafte Nebenwirkungen. Untersucht wurde, ob diese die wahrgenommene Wirksamkeit einer ansonsten wirkstofffreien Behandlung beeinflussen."
+},
+{
+  "id": "q535",
+  "question": "Wie kann sich eine tote Forelle in einem Versuch gegen eine Wasserströmung vorwärtsbewegen, ohne selbst zu schwimmen?",
+  "answer": "Ihr biegsamer Körper kann Energie aus den Wirbeln hinter einem Hindernis aufnehmen. Dadurch ist passive Fortbewegung ohne Muskelarbeit möglich."
+},
+{
+  "id": "q536",
+  "question": "Über welchen ungewöhnlichen Weg versorgte ein Forschungsteam Versuchstiere mit Sauerstoff, um Atemversagen zu lindern?",
+  "answer": "Über den Darm: Es führte sauerstoffhaltige Medien über den After ein. Untersucht wurde Sauerstoffaufnahme durch die Darmwand, nicht gewöhnliches Atmen wie mit Lungen."
+},
+{
+  "id": "q537",
+  "question": "Warum ließen Forschende Versuchspersonen dasselbe Wort immer wieder aufschreiben?",
+  "answer": "Um auszulösen, dass ein vertrautes Wort plötzlich fremd oder bedeutungslos wirkt. Untersucht wurden Wortentfremdung und semantische Sättigung."
+},
+{
+  "id": "q538",
+  "question": "Welche außergewöhnliche Sprachfertigkeit untersuchte ein Team um María José Torres-Prioris im Hinblick auf die Gehirnverarbeitung?",
+  "answer": "Das flüssige Rückwärtssprechen, insbesondere die Umkehrung der Lautfolge von Wörtern."
+},
+{
+  "id": "q539",
+  "question": "Was zählten Forschende an Leichen, um die Symmetrie eines oft übersehenen Körpermerkmals zu prüfen?",
+  "answer": "Die Haare in den beiden Nasenlöchern. Sie verglichen deren Anzahl und Länge auf beiden Seiten."
+},
+{
+  "id": "q540",
+  "question": "Was sollte ein schwacher elektrischer Strom in experimentellen Essstäbchen und Trinkhalmen verändern?",
+  "answer": "Die Geschmackswahrnehmung beim Essen und Trinken. Der Strom sollte Geschmackseindrücke beeinflussen, ohne nur die Zutaten auszutauschen."
+},
+{
+  "id": "q541",
+  "question": "Warum standen in einem Straßenexperiment mehrere Personen still und blickten gemeinsam nach oben?",
+  "answer": "Um zu messen, wie viele Passanten ebenfalls stehen bleiben oder nach oben schauen, wenn unterschiedlich große Gruppen dieses Verhalten vormachen."
+},
+{
+  "id": "q542",
+  "question": "Welche biologische Aktivität untersuchten Forschende als mögliche Ursache einer ungewöhnlich starken Durchmischung von Meerwasser?",
+  "answer": "Das gemeinsame Laichen großer Ansammlungen von Sardellen. Die Bewegungen der Fische konnten die obere Wasserschicht durchmischen."
+},
+{
+  "id": "q543",
+  "question": "Welche überraschende Folge hat es für bestimmte Skorpione, wenn sie zur Flucht ihren Schwanz abwerfen?",
+  "answer": "Sie verlieren dabei auch den After und können keine Exkremente mehr ausscheiden. Die daraus entstehende Verstopfung wurde auf ihre Folgen für Bewegung und Fortpflanzung untersucht."
+},
+{
+  "id": "q544",
+  "question": "Was bekamen Patienten während einer bestimmten Hochdosis-Chemotherapie zu essen, um die Mundschleimhaut zu kühlen?",
+  "answer": "Speiseeis. Es wurde als Form der örtlichen Kühlung untersucht, um Entzündungen der Mundschleimhaut zu vermindern; nicht als Behandlung des Krebses selbst."
+},
+{
+  "id": "q545",
+  "question": "Welche ungewöhnlichen Handlungen auf antiken Maya-Gefäßen waren Gegenstand einer interdisziplinären Untersuchung?",
+  "answer": "Rituelle Einläufe: Die Forschenden analysierten entsprechende Darstellungen auf Maya-Keramik."
+},
+{
+  "id": "q546",
+  "question": "Wovon profitieren Entenküken laut einer strömungsmechanischen Untersuchung, wenn sie hinter ihrer Mutter in einer Reihe schwimmen?",
+  "answer": "Sie können die von der Mutter erzeugten Wellen nutzen. Die passende Position in der Wellenfolge kann ihren Schwimmaufwand verringern."
+},
+{
+  "id": "q547",
+  "question": "Welche Entscheidung von Klatschenden versuchte ein Forschungsteam mit einem mathematischen Modell zu erklären?",
+  "answer": "Wann es sich für jemanden lohnt, beim Weitererzählen von Informationen über andere die Wahrheit zu sagen oder zu lügen."
+},
+{
+  "id": "q548",
+  "question": "Welche körperlichen Signale wurden bei Blind Dates gemessen, um einen Zusammenhang mit gegenseitiger Anziehung zu untersuchen?",
+  "answer": "Die zeitliche Abstimmung von Herzschlag und Hautleitfähigkeit zwischen den beiden Personen, also unbewusste physiologische Synchronisierung."
+},
+{
+  "id": "q549",
+  "question": "Welche weggeworfenen Alltagsreste sammelte ein Forschungsteam auf Gehwegen, um ihre Bakteriengemeinschaften genetisch zu untersuchen?",
+  "answer": "Festgeklebte, ausgespuckte Kaugummis. Ihre Bakterien wurden mit genetischen Methoden untersucht."
+},
+{
+  "id": "q550",
+  "question": "Was analysierten Forschende in einem Kino, um Hinweise auf die Wirkung und mögliche Altersfreigabe der gezeigten Filme zu gewinnen?",
+  "answer": "Die Luft im Kinosaal. Untersucht wurden von den Zuschauern abgegebene flüchtige chemische Stoffe und ihre Veränderungen während des Films."
+},
+{
+  "id": "q551",
+  "question": "Warum setzte ein Forschungsteam einen Chinesischen Alligator in eine Kammer mit heliumhaltiger Atemluft?",
+  "answer": "Es wollte die Resonanzen seiner Rufe untersuchen. Helium verändert die Schallausbreitung und half dabei, Resonanzeffekte von der eigentlichen Lauterzeugung zu unterscheiden."
+},
+{
+  "id": "q552",
+  "question": "Was machten Physiker mit betäubten Regenwürmern, um Wellenphänomene in einem lebenden Körper zu untersuchen?",
+  "answer": "Sie versetzten die Würmer in schnelle Vibrationen und beobachteten die dabei entstehenden Wellen und Formveränderungen ihrer flüssigkeitsgefüllten Körper."
+},
+{
+  "id": "q553",
+  "question": "Welche unerwartete Berufsgruppe untersuchte Richard Vetter, weil manche ihrer Mitglieder ausgeprägte Angst vor Spinnen hatten?",
+  "answer": "Insektenforscher. Trotz ihrer täglichen Arbeit mit kleinen Gliederfüßern hatten manche von ihnen starke Angst vor Spinnen."
+},
+{
+  "id": "q554",
+  "question": "Welches körperliche Merkmal verwendete ein Forschungsteam, um zu untersuchen, ob Menschen narzisstische Persönlichkeitszüge anderer erkennen?",
+  "answer": "Die Augenbrauen. Untersucht wurde, ob deren Erscheinung Hinweise für entsprechende Einschätzungen liefert; das ist kein zuverlässiger Persönlichkeitstest für Einzelpersonen."
+},
+{
+  "id": "q555",
+  "question": "Wie kam ein geplanter Auftragsmord in China schließlich bei der Polizei ans Licht, nachdem der Auftrag mehrfach weitergereicht worden war?",
+  "answer": "Der zuletzt beauftragte Mann wollte die Tat nicht ausführen und schlug dem vorgesehenen Opfer vor, dessen Tod nur vorzutäuschen. Das Opfer informierte die Polizei."
+},
+{
+  "id": "q556",
+  "question": "Warum nahmen Forschende ein mit Urin und Nierensteinen gefülltes Silikonmodell auf Achterbahnfahrten mit?",
+  "answer": "Sie prüften, ob die Bewegungen einer Achterbahn das Herauslösen von Nierensteinen aus dem Modell unterstützen. Der Versuch ersetzt keine medizinische Behandlungsempfehlung."
+},
+{
+  "id": "q557",
+  "question": "Welche Untersuchung führte der Arzt Akira Horiuchi im Selbstversuch wiederholt an sich durch, um verschiedene Körperhaltungen zu vergleichen?",
+  "answer": "Darmspiegelungen. Er untersuchte unter anderem, wie praktikabel eine selbst durchgeführte Koloskopie in sitzender Haltung ist."
+},
+{
+  "id": "q558",
+  "question": "Welche winzige Verunreinigung konnten Weinverkoster in einer Untersuchung allein am Geruch eines Weinglases erkennen?",
+  "answer": "Eine hineingelangte weibliche Fruchtfliege. Von ihr abgegebene Duftstoffe konnten den Geruch des Weins bemerkbar verändern."
+},
+{
+  "id": "q559",
+  "question": "Welches ungewöhnliche Reinigungsmittel wurde in einer Studie zur Säuberung verschmutzter Oberflächen untersucht?",
+  "answer": "Menschlicher Speichel. Seine Reinigungswirkung wurde mit anderen Mitteln verglichen, statt ihn nur als Verunreinigung zu betrachten."
+},
+{
+  "id": "q560",
+  "question": "Warum berechnete der Archäologe James Cole den Nährwert menschlicher Körperteile?",
+  "answer": "Um zu prüfen, ob prähistorischer Kannibalismus allein mit seinem Nahrungswert erklärbar wäre. Menschliches Gewebe wurde mit anderen möglichen Fleischquellen verglichen."
+},
+{
+  "id": "q561",
+  "question": "Wie wurden Briefmarken in einer Untersuchung genutzt, um nächtliche Erektionen festzustellen?",
+  "answer": "Zusammenhängende Briefmarken bildeten einen Ring um den Penis. Ein gerissener Ring am Morgen konnte darauf hindeuten, dass nachts eine Erektion stattgefunden hatte."
+},
+{
+  "id": "q562",
+  "question": "Welche symbolische Handlung durften Versuchspersonen ausführen, um ihren Ärger über einen unfairen Vorgesetzten abzureagieren?",
+  "answer": "Sie konnten einer Puppe, die den Vorgesetzten darstellte, symbolisch Schaden zufügen. Untersucht wurde, ob diese Art von Vergeltung das Ungerechtigkeitsgefühl mindert."
+},
+{
+  "id": "q563",
+  "question": "Warum ließen Forschende Versuchspersonen vor einer Glücksspielaufgabe ein lebendes Krokodil halten?",
+  "answer": "Um zu untersuchen, wie die dadurch ausgelöste Erregung das anschließende Glücksspielverhalten beeinflusst."
+},
+{
+  "id": "q564",
+  "question": "Welches Musikinstrument wurde in einer klinischen Studie regelmäßig gespielt, um Schnarchen und obstruktive Schlafapnoe zu untersuchen?",
+  "answer": "Ein Didgeridoo. Das regelmäßige Spielen wurde als Training der oberen Atemwege untersucht, nicht als universelles Heilmittel gegen Schnarchen."
+},
+{
+  "id": "q565",
+  "question": "Warum zeigten Forschende einigen Personen Käse, während sie deren Gehirnaktivität im Scanner untersuchten?",
+  "answer": "Sie wollten verstehen, welche Gehirnreaktionen mit ausgeprägtem Ekel vor Käse zusammenhängen."
+},
+{
+  "id": "q566",
+  "question": "Welche überraschende Schwierigkeit hatten eineiige Zwillinge in einer Studie mit Fotos von sich und ihrem Geschwister?",
+  "answer": "Ihr eigenes Gesicht auf den Bildern zu erkennen, war gegenüber dem Gesicht des Zwillings nicht im gleichen Maß erleichtert wie bei üblichen Selbstgesichtsvergleichen."
+},
+{
+  "id": "q567",
+  "question": "Warum bekamen Ratten in Experimenten von Ahmed Shafik winzige Hosen aus unterschiedlichen Stoffen angezogen?",
+  "answer": "Um mögliche Auswirkungen der Kleidungsmaterialien auf Sexualverhalten und Fortpflanzungsfunktionen zu untersuchen."
+},
+{
+  "id": "q568",
+  "question": "Was sollten Versuchspersonen in einer Studie über die Aussagekraft von Markenpersönlichkeitsskalen ganz gewöhnlichen Steinen zuschreiben?",
+  "answer": "Persönlichkeitsmerkmale. Die Steine wurden mit Beschreibungen beurteilt, wie sie sonst für Marken verwendet werden."
+},
+{
+  "id": "q569",
+  "question": "Welche optische Eigenschaft macht manche schwarzen Grabsteine für wassergebundene Insekten irreführend?",
+  "answer": "Ihre Oberfläche kann stark polarisiertes Licht reflektieren und dadurch eine Wasserfläche vortäuschen, die die Insekten anlockt."
+},
+{
+  "id": "q570",
+  "question": "Was tat Thomas Thwaites, um zeitweise den Alltag einer Ziege möglichst unmittelbar zu erleben?",
+  "answer": "Er fertigte Gliedmaßenprothesen an, bewegte sich damit auf allen vieren und verbrachte Zeit mit einer Ziegenherde in den Bergen."
+},
+{
+  "id": "q571",
+  "question": "Welche ungewöhnliche Perspektive mussten Versuchspersonen in einer japanischen Studie einnehmen, um Veränderungen ihrer Raumwahrnehmung zu untersuchen?",
+  "answer": "Sie beugten sich nach vorn und betrachteten die Umgebung kopfüber zwischen den eigenen Beinen hindurch."
+},
+{
+  "id": "q572",
+  "question": "Wie versuchten Forschende in einem Spiegelversuch, einen Juckreiz zu lindern, ohne die juckende Stelle direkt zu kratzen?",
+  "answer": "Die Versuchspersonen sahen in einen Spiegel und kratzten die entsprechende Stelle auf der anderen Körperseite. Das Spiegelbild ließ es wie Kratzen an der juckenden Seite aussehen."
+},
+{
+  "id": "q573",
+  "question": "Warum befestigten Forschende künstliche Schwänze am Hinterteil von Hühnern?",
+  "answer": "Sie verschoben den Körperschwerpunkt nach hinten und untersuchten, wie sich dadurch der Gang verändert. Der Versuch sollte Rückschlüsse auf die Fortbewegung zweibeiniger Dinosaurier ermöglichen."
+},
+{
+  "id": "q574",
+  "question": "Was wurde in einem Versuch als „Entkochen eines Eis“ bezeichnet, obwohl daraus kein normales rohes Ei wurde?",
+  "answer": "Ein Teil der beim Erhitzen veränderten Eiweißproteine wurde wieder in eine brauchbare Faltung gebracht. Dafür wurden chemische Behandlung und ein Wirbelströmungsgerät eingesetzt."
+},
+{
+  "id": "q575",
+  "question": "Welche kurze Äußerung fanden Linguisten in ähnlicher Form in mehreren sehr unterschiedlichen Sprachen, wenn ein Gesprächspartner etwas nicht verstanden hatte?",
+  "answer": "Eine Rückfrage wie „Hä?“. Untersucht wurde dieser kurze Reparaturausdruck in zehn Sprachen, nicht die Behauptung einer einzigen weltweit identischen Sprache."
+},
+{
+  "id": "q576",
+  "question": "Warum fragten Ärzte Patienten mit Bauchschmerzen, ob die Fahrt über Bodenschwellen besonders schmerzhaft gewesen sei?",
+  "answer": "Sie untersuchten, ob Schmerzen beim Überfahren von Bodenschwellen ein Hinweis auf eine akute Blinddarmentzündung sein können. Es ist kein ausreichender Test zur Selbstdiagnose."
+},
+{
+  "id": "q577",
+  "question": "Was ließ der Forscher Michael Smith an unterschiedlichen Stellen seines eigenen Körpers wiederholt geschehen?",
+  "answer": "Er ließ sich von Honigbienen stechen und bewertete die Schmerzen, um ihre Stärke je nach Körperstelle zu vergleichen."
+},
+{
+  "id": "q578",
+  "question": "Welche historische Behauptung über Sultan Moulay Ismaïl prüfte ein Forschungsteam mit einer Computersimulation?",
+  "answer": "Ob er innerhalb seiner Lebens- und Regierungszeit tatsächlich Hunderte bis über tausend Kinder hätte zeugen können. Simuliert wurden dafür Fortpflanzungsbedingungen, nicht bewiesene Familienverhältnisse."
+},
+{
+  "id": "q579",
+  "question": "Warum verglichen Forschende das Urinieren sehr unterschiedlich großer Säugetiere?",
+  "answer": "Sie untersuchten, wie Blasengröße, Harnröhre und Schwerkraft die Entleerungsdauer beeinflussen und warum viele größere Säugetiere trotz ihrer Größenunterschiede ähnlich lange urinieren."
+},
+{
+  "id": "q580",
+  "question": "Welches ungewöhnliche Material verwendeten Ärzte in einem veröffentlichten Fallbericht zum Stillen eines schwer beherrschbaren Nasenblutens?",
+  "answer": "Streifen gepökelten Schweinefleischs als Nasentamponade. Das beschreibt einen medizinischen Fallbericht, keine empfohlene häusliche Erste-Hilfe-Methode."
+},
+{
+  "id": "q581",
+  "question": "Warum liefen Forschende in Norwegen als Eisbären verkleidet auf Rentiere zu?",
+  "answer": "Sie untersuchten die Reaktionen der Rentiere auf einen möglichen Raubfeind und verglichen sie mit Reaktionen auf gewöhnliche Menschen."
+},
+{
+  "id": "q582",
+  "question": "Was wurde in einem Versuch zwischen Schuh und Fußboden gelegt, um einen klassischen Slapstick-Unfall physikalisch zu untersuchen?",
+  "answer": "Eine Bananenschale. Gemessen wurde die Reibung zwischen Schuh, Schale und Boden beim Darauftreten."
+},
+{
+  "id": "q583",
+  "question": "Was zeigten Forschende Menschen, um die Gehirnprozesse beim Erkennen vermeintlicher Gesichter in zufälligen Mustern zu untersuchen?",
+  "answer": "Bilder mit Rauschmustern, in denen die Personen Gesichter zu sehen glaubten. Das untersuchte Phänomen ist Gesichtspareidolie, bekannt etwa vom vermeintlichen Jesusgesicht auf Toast."
+},
+{
+  "id": "q584",
+  "question": "Warum schluckte ein Forscher eine vorgekochte Spitzmaus unzerkaut und untersuchte anschließend seine Ausscheidungen?",
+  "answer": "Er wollte herausfinden, welche Knochen die menschliche Verdauung überstehen und welche zerstört werden. Das sollte helfen, Knochenreste in archäologischen Fundstätten einzuordnen."
+},
+{
+  "id": "q585",
+  "question": "Was sollte Gustano Pizzos patentiertes System mit einem Flugzeugentführer tun, nachdem dieser durch eine Falltür gefallen war?",
+  "answer": "Es sollte ihn in einer Hülle einschließen und mit einem Fallschirm aus dem Flugzeug abwerfen. Die Polizei sollte per Funk verständigt werden. Es handelte sich um einen Entwurf."
+},
+{
+  "id": "q586",
+  "question": "Wie ermöglichten Forschende Versuchspersonen, laufend auf der Wasseroberfläche zu bleiben, ohne dass diese gewöhnlich schwimmen mussten?",
+  "answer": "Ein Aufhängesystem verringerte ihre wirksame Gewichtskraft auf etwa Mondschwerkraft oder weniger. Mit kleinen starren Flossen konnten sie auf dem Wasser auf der Stelle laufen."
+},
+{
+  "id": "q587",
+  "question": "Wie sollte das japanische Gerät „SpeechJammer“ eine Person beim flüssigen Reden stören?",
+  "answer": "Es nahm ihre Stimme auf und spielte ihr die eigenen Worte mit wenigen Hundert Millisekunden Verzögerung wieder vor. Diese verzögerte Rückmeldung kann den Redefluss stören."
+},
+{
+  "id": "q588",
+  "question": "Warum legte ein Neurowissenschaftler einen toten Lachs in einen Gehirnscanner und zeigte ihm Bilder sozialer Situationen?",
+  "answer": "Das absurde Versuchssubjekt sollte zeigen, dass statistische Auswertungen ohne angemessene Korrektur scheinbar bedeutsame Aktivität sogar bei einem toten Tier liefern können."
+},
+{
+  "id": "q589",
+  "question": "Was beschreibt die sogenannte „Rapunzel-Zahl“ in einem physikalischen Modell?",
+  "answer": "Eigenschaften eines gebundenen Haarbündels, die zusammen mit Steifigkeit, Schwerkraft und natürlichen Krümmungen helfen, die Form eines Pferdeschwanzes zu beschreiben."
+},
+{
+  "id": "q590",
+  "question": "Woraus stellte die russische Firma SKN nach einem ungewöhnlichen Verfahren Diamanten her?",
+  "answer": "Ausgediente Munition lieferte Sprengstoff für ein Verfahren zur Diamantsynthese. Die Explosionen sollten Kohlenstoff unter extremen Bedingungen in winzige Diamanten umwandeln."
+},
+{
+  "id": "q591",
+  "question": "Warum untersuchten Physiker Personen, die mit einer gefüllten Kaffeetasse durch den Raum gingen?",
+  "answer": "Sie wollten verstehen, wie die Schritte und die Eigenbewegung der Flüssigkeit zusammenwirken und dadurch Kaffee über den Tassenrand schwappen lassen."
+},
+{
+  "id": "q592",
+  "question": "Welche ungewöhnlichen Fotos reichten Schimpansen in einem Versuch aus, um Artgenossen individuell wiederzuerkennen?",
+  "answer": "Fotos ihrer Hinterteile. Die Untersuchung zeigte, dass diese Bilder Informationen zur individuellen Erkennung liefern konnten."
+},
+{
+  "id": "q593",
+  "question": "Wie sollte ein japanischer Alarm auch Menschen im Schlaf warnen, die einen gewöhnlichen Alarmton nicht hören können?",
+  "answer": "Er sollte einen stechenden Reizstoff aus Wasabi in der Luft verteilen. Der reizende Geruch sollte Schlafende bei einer Gefahr aufwecken."
+},
+{
+  "id": "q594",
+  "question": "Welche weggeworfenen Gegenstände hielten männliche australische Prachtkäfer irrtümlich für Paarungspartnerinnen?",
+  "answer": "Bestimmte braune Bierflaschen. Ihre Farbe, Größe und Oberflächenstruktur wirkten auf die Käfer wie übersteigerte Merkmale eines Weibchens."
+},
+{
+  "id": "q595",
+  "question": "Warum brachte ein Forschungsteam einer Rotfußschildkröte bei, auf Kommando zu gähnen?",
+  "answer": "Um zu prüfen, ob andere Schildkröten beim Beobachten ebenfalls gähnen. Im beschriebenen Versuch fand sich kein Beleg für ansteckendes Gähnen."
+},
+{
+  "id": "q596",
+  "question": "Wie sammelte ein Forschungsteam Atemproben von Walen, ohne die Tiere dafür festhalten zu müssen?",
+  "answer": "Ein ferngesteuerter kleiner Hubschrauber flog über auftauchende Wale und fing ausgeatmete Tröpfchen in Probenschalen auf."
+},
+{
+  "id": "q597",
+  "question": "Wie ließ ein japanisch-britisches Forschungsteam einen Schleimpilz an der Planung eines Verkehrsnetzes mitwirken?",
+  "answer": "Es platzierte Futterstellen wie Städte auf einer Karte. Die Verbindungen, die der Schleimpilz zwischen ihnen bildete, wurden mit möglichen Bahnnetzen verglichen."
+},
+{
+  "id": "q598",
+  "question": "Welche sprachliche Handlung wurde in einem Versuch untersucht, bei dem Personen ihre Hand in sehr kaltes Wasser hielten?",
+  "answer": "Das Fluchen. Verglichen wurde, wie lange die Personen den Schmerz beim Wiederholen eines Schimpfworts oder eines neutralen Worts aushielten."
+},
+{
+  "id": "q599",
+  "question": "Wozu ließ sich Elena Bodnars patentierter Spezial-Büstenhalter im Notfall umfunktionieren?",
+  "answer": "Zu zwei getrennten Schutzmasken, jeweils aus einem Körbchen. Die Erfindung sollte damit der Trägerin und einer zweiten Person einen provisorischen Atemschutz bieten."
+},
+{
+  "id": "q600",
+  "question": "Welches Material aus einem Tiergehege nutzten Forschende, um den Abbau von Küchenabfällen zu beschleunigen?",
+  "answer": "Bakterien aus dem Kot von Großen Pandas. Die Mikroorganismen wurden auf ihre Fähigkeit untersucht, organische Küchenabfälle abzubauen."
+},
+{
+  "id": "q601",
+  "question": "Warum ließen Rechtsmediziner Stahlkugeln auf volle und leere Bierflaschen fallen?",
+  "answer": "Sie verglichen die zum Zerbrechen erforderliche Energie. Damit wollten sie die mögliche Gefährlichkeit solcher Flaschen bei Schlägen auf den Kopf besser beurteilen."
+},
+{
+  "id": "q602",
+  "question": "Wie veränderten Forschende den Eindruck von Frische und Knusprigkeit beim Essen von Kartoffelchips, ohne die Chips selbst auszutauschen?",
+  "answer": "Sie veränderten über Kopfhörer das beim Abbeißen gehörte Knackgeräusch. Lautere oder passend veränderte Geräusche konnten die Chips frischer erscheinen lassen."
+},
+{
+  "id": "q603",
+  "question": "Warum untersuchten Archäologen die Grabtätigkeit von Gürteltieren?",
+  "answer": "Weil die Tiere Gegenstände und Bodenschichten einer Fundstätte durcheinanderbringen können. Dadurch können archäologische Funde in eine irreführende Lage gelangen."
+},
+{
+  "id": "q604",
+  "question": "Aus welchem ungewöhnlichen Ausgangsstoff gewann die Forscherin Mayu Yamamoto einen nach Vanille riechenden Stoff?",
+  "answer": "Aus Kuhdung. Sie entwickelte ein Verfahren zur Gewinnung von Vanillin daraus; das bedeutet nicht, dass handelsübliche Vanille grundsätzlich aus Mist stammt."
+},
+{
+  "id": "q605",
+  "question": "Warum bekamen Hamster in einem Versuch den Wirkstoff Sildenafil, der aus Potenzmitteln bekannt ist?",
+  "answer": "Um seine Wirkung auf die Anpassung ihrer inneren Uhr nach einer Verschiebung des Hell-Dunkel-Rhythmus zu untersuchen, also auf einen experimentell erzeugten Jetlag."
+},
+{
+  "id": "q606",
+  "question": "Welcher Lebensmittelgeruch wurde in einem Versuch als ungewöhnlicher Lockreiz für weibliche Malariamücken verwendet?",
+  "answer": "Der Geruch von Limburger Käse. Er wurde mit dem Geruch menschlicher Füße verglichen, auf den diese Mücken ebenfalls reagieren."
+},
+{
+  "id": "q607",
+  "question": "Wie sollte Howard Stapletons Gerät „Mosquito“ Jugendliche von einem Ort fernhalten, ohne viele ältere Erwachsene gleichermaßen zu stören?",
+  "answer": "Es erzeugte einen unangenehmen hohen Ton, den junge Menschen häufiger noch hören können, während das Hörvermögen für solche Frequenzen mit dem Alter oft abnimmt."
+},
+{
+  "id": "q608",
+  "question": "Warum füllten zwei Ingenieure ein Schwimmbecken mit Wasser, das durch Guarkernmehl deutlich dickflüssiger gemacht worden war?",
+  "answer": "Sie verglichen, ob Menschen in einer sirupartigen Flüssigkeit schneller oder langsamer schwimmen als in Wasser. Im beschriebenen Versuch waren die Schwimmzeiten überraschend ähnlich."
+},
+{
+  "id": "q609",
+  "question": "Welche ungewöhnliche Leistung eines Pinguins untersuchten Forschende mit Druckberechnungen?",
+  "answer": "Das Herausschleudern von Kot aus dem Nestbereich. Sie berechneten den dafür nötigen Druck im Körper aus den beobachteten Abständen und Eigenschaften des Kots."
+},
+{
+  "id": "q610",
+  "question": "Warum bekamen Heuschrecken Filmszenen aus „Star Wars“ zu sehen, während ihre Nervenzellaktivität gemessen wurde?",
+  "answer": "Die Forschenden untersuchten Reaktionen auf sich nähernde Bildobjekte. Solche Nervensignale helfen den Insekten, drohende Zusammenstöße zu erkennen."
+},
+{
+  "id": "q611",
+  "question": "Welche alltägliche Arbeit mit Schafen wurde in einer ergonomischen Untersuchung anhand verschiedener Untergründe vermessen?",
+  "answer": "Das Ziehen beziehungsweise Schleifen von Schafen über den Boden. Gemessen wurden die dafür notwendigen Kräfte, etwa im Zusammenhang mit ihrer Handhabung beim Scheren."
+},
+{
+  "id": "q612",
+  "question": "Warum wurden Hühner in einem Experiment auf Fotos menschlicher Gesichter trainiert?",
+  "answer": "Um zu prüfen, welche Gesichter sie anschließend bevorzugen und ob ihre Auswahl Ähnlichkeiten mit menschlichen Urteilen über Attraktivität aufweist."
+},
+{
+  "id": "q613",
+  "question": "Was sollte das japanische Gerät „Bow-Lingual“ aus den Lauten eines Haustiers ableiten?",
+  "answer": "Es sollte Hundegebell aufnehmen und daraus Angaben zu vermuteten Gefühlszuständen des Hundes machen. Es war keine nachgewiesene Übersetzung einer vollständigen Hundesprache."
+},
+{
+  "id": "q614",
+  "question": "Welche alltägliche Ansammlung am menschlichen Körper untersuchte Karl Kruszelnicki mithilfe einer großen Internetumfrage?",
+  "answer": "Bauchnabelfusseln. Er sammelte Angaben zu ihrem Auftreten sowie zu Körperbehaarung, Alter, Körperbau und Form des Bauchnabels."
+},
+{
+  "id": "q615",
+  "question": "Was sollte James C. Boyles patentiertes „Saluting Device“ beim Grüßen automatisch erledigen?",
+  "answer": "Es sollte beim Verbeugen den Hut anheben, drehen und wieder absetzen, ohne dass sein Träger dafür eine Hand benutzen musste."
+},
+{
+  "id": "q616",
+  "question": "Wie sollte Paschal Plants patentierter Schwimmanzug seinem Träger Auftrieb geben?",
+  "answer": "Kleine Korkstücke sollten mit starken Schnüren zu einem tragbaren Anzug verbunden werden. Der Kork sollte den Menschen auf dem Wasser halten."
+},
+{
+  "id": "q617",
+  "question": "Wo saß der Fahrer in John Otto Loses patentiertem „One-Wheeled Vehicle“?",
+  "answer": "Im Inneren eines einzigen großen Rades. Das Rad sollte sich um den darin sitzenden Fahrer drehen; der Entwurf sah sogar einen Schirm vor."
+},
+{
+  "id": "q618",
+  "question": "Was sollte die von Otto A. Hensel patentierte Spezialbadewanne zusätzlich zum normalen Baden ermöglichen?",
+  "answer": "Sie sollte schaukeln beziehungsweise hin und her schwingen, damit das Badewasser gegen den Körper des Badenden spritzt."
+},
+{
+  "id": "q619",
+  "question": "Vor welchem Problem sollten Andrew Jackson Juniors patentierte Brillen für Hühner schützen?",
+  "answer": "Vor Augenverletzungen durch andere Hühner, die nach den Augen ihrer Artgenossen picken. Es waren Augenschützer, keine gewöhnlichen Sehhilfen."
+},
+{
+  "id": "q620",
+  "question": "Wozu war Karl Langes patentiertes „Double Bicycle“ gedacht?",
+  "answer": "Zum Durchfahren eines Loopings. Der Entwurf verwendete ein Doppel-Fahrrad, das die ungewöhnliche Lage bei dieser Artistikfahrt ermöglichen sollte."
+},
 ];
